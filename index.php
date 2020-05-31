@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<?php 
+$page_title = "The Perfect Cup - Home";
+include_once("inc/header.php");
+?>
 
 <body>
 
@@ -112,7 +115,9 @@
     </div>
     <!-- /.container -->
 
-   
+    <?php 
+        include_once("inc/footer.php");
+    ?>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
