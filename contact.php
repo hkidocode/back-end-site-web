@@ -3,7 +3,7 @@
 
 <?php 
 $page_title = "The Perfect Cup - Contact";
-include_once("inc/header.php");
+include("inc/header.php");
 ?>
 
 <body>
@@ -23,22 +23,22 @@ include_once("inc/header.php");
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">The Perfect Cup</a>
+                <a class="navbar-brand" href="index.php">The Perfect Cup</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="about.php">About</a>
                     </li>
                     <li>
-                        <a href="blog.html">Blog</a>
+                        <a href="blog.php">Blog</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -115,7 +115,7 @@ include_once("inc/header.php");
     <!-- /.container -->
 
     <?php 
-        include_once("inc/footer.php");
+        include("inc/footer.php");
     ?>
 
     <!-- Bootstrap Core JavaScript -->
