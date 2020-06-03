@@ -27,7 +27,7 @@ include("inc/header.php");
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav">
                     <li>
                         <a href="index.php">Home</a>
                     </li>
@@ -36,6 +36,9 @@ include("inc/header.php");
                     </li>
                     <li>
                         <a href="blog.php">Blog</a>
+                    </li>
+                    <li>
+                        <a href="contact.php">Contact</a>
                     </li>
                     <li>
                         <a href="login.php">Login</a>
@@ -64,23 +67,27 @@ include("inc/header.php");
                             <div class="form-group col-lg-4">
                                 <label>First Name</label>
                                 <input type="text" id="fname" name="fname" maxlength="25" class="form-control">
+			                    <p class="message invisible">Error message</p>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Last Name</label>
                                 <input type="text" id="lname" name="lname" maxlength="25" class="form-control">
+			                    <p class="message invisible">Error message</p>
                             </div>
                             <div class="clearfix"></div>
 
                             <div class="form-group col-lg-4">
                                 <label>Email Address</label>
                                 <input type="email" id="email" name="email" maxlength="25" class="form-control">
+			                    <p class="message invisible">Error message</p>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Password</label>
                                 <input type="password" id="password" name="password" maxlength="25" class="form-control">
+			                    <p class="message invisible">Error message</p>
                             </div>
                             <div class="form-group col-lg-12">
-                                <button type="submit" id="contact" class="btn btn-default">Submit</button>
+                                <button type="button" id="register" class="btn btn-default">Submit</button>
                             </div>
                         </div>
                     </form>

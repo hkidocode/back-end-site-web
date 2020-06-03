@@ -74,7 +74,7 @@ include("inc/header.php");
                                 <input type="password" id="password" name="password" maxlength="25" class="form-control">
                             </div>
                             <div class="form-group col-lg-12">
-                                <button type="submit" id="contact" class="btn btn-default">Submit</button>
+                                <button type="submit" id="login" class="btn btn-default">Submit</button>
                             </div>
                         </div>
                     </form>

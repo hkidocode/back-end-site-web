@@ -5483,6 +5483,8 @@ button.list-group-item-danger.active:focus {
 .panel-title > .small > a {
   color: inherit;
 }
+
+
 .panel-footer {
   padding: 10px 15px;
   background-color: #f5f5f5;
@@ -6570,6 +6572,9 @@ button.close {
 .visible-lg-inline-block {
   display: none !important;
 }
+
+
+
 @media (max-width: 767px) {
   .visible-xs {
     display: block !important;
@@ -6758,4 +6763,7 @@ button.close {
     display: none !important;
   }
 }
+
+
+
 /*# sourceMappingURL=bootstrap.css.map */
