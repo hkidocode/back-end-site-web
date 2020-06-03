@@ -2439,7 +2439,7 @@ function setErrorFor(input, message) {
 }
 
 
-submitRegister.addEventListener('button', () => {
+submitRegister.addEventListener('click', () => {
   isValidFirstName(firstName);
   console.log(firstName.value);
   isValidLastName(lastName);
