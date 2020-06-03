@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php 
-$page_title = "The Perfect Cup - Register";
+$page_title = "The Perfect Cup - Login";
 include("inc/header.php");
 ?>
 
@@ -38,6 +38,9 @@ include("inc/header.php");
                         <a href="blog.php">Blog</a>
                     </li>
                     <li>
+                        <a href="contact.php">Contact</a>
+                    </li>
+                    <li>
                         <a href="login.php">Login</a>
                     </li>
                     <li>
@@ -56,17 +59,17 @@ include("inc/header.php");
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center"><strong>Register</srong></h2>
+                        <h2 class="intro-text text-center">Login</h2>
                     <hr>
                     <div id="add_err2"></div>
                     <form role="form">
                         <div class="row">
                             <div class="form-group col-lg-4">
-                                <label>First Name</label>
+                                <label>Name</label>
                                 <input type="text" id="fname" name="fname" maxlength="25" class="form-control">
                             </div>
                             <div class="form-group col-lg-4">
-                                <label>Last Name</label>
+                                <label>Email Address</label>
                                 <input type="email" id="email" name="email" maxlength="25" class="form-control">
                             </div>
                             <div class="clearfix"></div>
