@@ -62,32 +62,33 @@ include("inc/header.php");
                     <h2 class="intro-text text-center"><strong>Register</srong></h2>
                     <hr>
                     <div id="add_err2"></div>
-                    <form role="form">
+                    <form role="form" id="registrationForm" method="get" action="register.php">
                         <div class="row">
                             <div class="form-group col-lg-4">
-                                <label>First Name</label>
+                                <label>Full Name</label>
                                 <input type="text" id="fname" name="fname" maxlength="25" class="form-control">
-			                    <p class="message invisible">Error message</p>
+			                    <small class="message invisible">Error message</small>
                             </div>
-                            <div class="form-group col-lg-4">
-                                <label>Last Name</label>
-                                <input type="text" id="lname" name="lname" maxlength="25" class="form-control">
-			                    <p class="message invisible">Error message</p>
-                            </div>
-                            <div class="clearfix"></div>
-
                             <div class="form-group col-lg-4">
                                 <label>Email Address</label>
                                 <input type="email" id="email" name="email" maxlength="25" class="form-control">
-			                    <p class="message invisible">Error message</p>
+			                    <small class="message invisible">Error message</small>
                             </div>
+
+                            <div class="clearfix"></div>
+
                             <div class="form-group col-lg-4">
                                 <label>Password</label>
                                 <input type="password" id="password" name="password" maxlength="25" class="form-control">
-			                    <p class="message invisible">Error message</p>
+			                    <small class="message invisible">Error message</small>
+                            </div>
+                            <div class="form-group col-lg-4">
+                                <label>Confirm Password</label>
+                                <input type="password" id="cpassword" name="password" maxlength="25" class="form-control">
+			                    <small class="message invisible">Error message</small>
                             </div>
                             <div class="form-group col-lg-12">
-                                <button type="button" id="register" class="btn btn-default">Submit</button>
+                                <button type="submit" id="register" class="btn btn-default">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -104,6 +105,9 @@ include("inc/header.php");
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Registrer Validation -->
+    <script src="js/registration.js"></script>
 
 </body>
 
