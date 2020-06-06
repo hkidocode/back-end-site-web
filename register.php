@@ -62,17 +62,17 @@ include("inc/header.php");
                     <h2 class="intro-text text-center"><strong>Register</srong></h2>
                     <hr>
                     <div id="add_err2"></div>
-                    <form role="form" id="registrationForm" method="get" action="register.php">
+                    <form role="form" id="registrationForm" method="post" action="success_registration.php">
                         <div class="row">
                             <div class="form-group col-lg-4">
                                 <label>Full Name</label>
                                 <input type="text" id="fname" name="fname" maxlength="25" class="form-control">
-			                    <small class="message invisible">Error message</small>
+			                    <small class="message-small"></small>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Email Address</label>
                                 <input type="email" id="email" name="email" maxlength="25" class="form-control">
-			                    <small class="message invisible">Error message</small>
+			                    <small class="message-small"></small>
                             </div>
 
                             <div class="clearfix"></div>
@@ -80,12 +80,12 @@ include("inc/header.php");
                             <div class="form-group col-lg-4">
                                 <label>Password</label>
                                 <input type="password" id="password" name="password" maxlength="25" class="form-control">
-			                    <small class="message invisible">Error message</small>
+			                    <small class="message-small"></small>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Confirm Password</label>
                                 <input type="password" id="cpassword" name="password" maxlength="25" class="form-control">
-			                    <small class="message invisible">Error message</small>
+			                    <small class="message-small"></small>
                             </div>
                             <div class="form-group col-lg-12">
                                 <button type="submit" id="register" class="btn btn-default">Submit</button>
