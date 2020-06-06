@@ -62,16 +62,16 @@ include("inc/header.php");
                     <h2 class="intro-text text-center"><strong>Register</srong></h2>
                     <hr>
                     <div id="add_err2"></div>
-                    <form role="form" id="registrationForm" method="post" action="success_registration.php">
+                    <form role="form" id="registrationForm" method="post" action="success_registration.php" autocomplete="off">
                         <div class="row">
                             <div class="form-group col-lg-4">
                                 <label>Full Name</label>
-                                <input type="text" id="fname" name="fname" maxlength="25" class="form-control">
+                                <input type="text" id="fname" name="fname"  class="form-control">
 			                    <small class="message-small"></small>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Email Address</label>
-                                <input type="email" id="email" name="email" maxlength="25" class="form-control">
+                                <input type="email" id="email" name="email"  class="form-control">
 			                    <small class="message-small"></small>
                             </div>
 
@@ -79,12 +79,12 @@ include("inc/header.php");
 
                             <div class="form-group col-lg-4">
                                 <label>Password</label>
-                                <input type="password" id="password" name="password" maxlength="25" class="form-control">
+                                <input type="password" id="password" name="password"  class="form-control">
 			                    <small class="message-small"></small>
                             </div>
                             <div class="form-group col-lg-4">
                                 <label>Confirm Password</label>
-                                <input type="password" id="cpassword" name="password" maxlength="25" class="form-control">
+                                <input type="password" id="cpassword" name="cpassword"  class="form-control">
 			                    <small class="message-small"></small>
                             </div>
                             <div class="form-group col-lg-12">
@@ -92,6 +92,11 @@ include("inc/header.php");
                             </div>
                         </div>
                     </form>
+
+                    <?php 
+                        require_once("inc/connection.php");
+                    ?>
+
                 </div>
             </div>
         </div>
